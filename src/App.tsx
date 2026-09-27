@@ -23,8 +23,8 @@ const projects: Project[] = [
 ]
 
 const experience = [
-  { dates: 'OCT 2021 — PRESENT', location: 'REMOTE · ISLAMABAD', company: 'My Clinic KSA', title: 'Full Stack .NET Developer', summary: 'Developing REST APIs and backend services in C# and ASP.NET Core for web and mobile platforms. Work includes JWT authentication, session handling, LINQ data access, testing and technical documentation.' },
-  { dates: 'FEB 2020 — SEP 2021', location: 'ON-SITE · ISLAMABAD', company: 'NGBS', title: '.NET Developer', summary: 'Developed and integrated RESTful APIs and third-party services, worked with frontend developers, and maintained technical documentation for web applications.' },
+  { dates: 'OCT 2021 - PRESENT', location: 'REMOTE · ISLAMABAD', company: 'My Clinic KSA', title: 'Full Stack .NET Developer', summary: 'Developing REST APIs and backend services in C# and ASP.NET Core for web and mobile platforms. Work includes JWT authentication, session handling, LINQ data access, testing and technical documentation.' },
+  { dates: 'FEB 2020 - SEP 2021', location: 'ON-SITE · ISLAMABAD', company: 'NGBS', title: '.NET Developer', summary: 'Developed and integrated RESTful APIs and third-party services, worked with frontend developers, and maintained technical documentation for web applications.' },
 ]
 
 function SectionLabel({ number, children }: { number: string; children: string }) {
@@ -111,7 +111,7 @@ function App() {
               <span className="tech-node node-dotnet"><i />C# / .NET</span><span className="tech-node node-angular"><i />ANGULAR</span><span className="tech-node node-sql"><i />SQL SERVER</span><span className="tech-node node-api"><i />REST APIs</span>
             </div>
           </motion.div>
-          <div className="hero-bottom"><span>MY CLINIC KSA · 2021—PRESENT &nbsp; / &nbsp; NGBS · 2020—2021</span><a href="#work">SCROLL TO EXPLORE ↓</a></div>
+          <div className="hero-bottom"><span>MY CLINIC KSA · 2021-PRESENT &nbsp; / &nbsp; NGBS · 2020-2021</span><a href="#work">SCROLL TO EXPLORE ↓</a></div>
         </section>
 
         <section className="work-section content-section" id="work" aria-labelledby="work-title">

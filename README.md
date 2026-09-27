@@ -1,4 +1,4 @@
-# Muhammad Ehsan — portfolio
+# Muhammad Ehsan - portfolio
 
 Responsive React portfolio for Muhammad Ehsan, built with Vite and Framer Motion.
 
